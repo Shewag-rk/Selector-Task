@@ -1,0 +1,74 @@
+/* universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Simple Selector */
+
+h1{
+    color: #050C9C;
+    background: #000;
+    width: 420px;
+    height: 40px;
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    background-color: gold;
+    width: 270px;
+    height: 30px;
+}
+
+/* Child selector  */
+
+.parent_1>li{
+    color: violet;
+}
+
+.Technical_Session>li{
+    color: pink;
+}
+
+.parent_1>ul>ol{
+    color: orangered;
+    background-color: #000;
+}
+
+.parent_2>ul>li>b{
+    color: #FF204E;
+}
+
+
+/* Siblings */
+
+.Technical_Event~ul{
+    color: orangered;
+}
+
+
+/* Descendants Selector */
+
+.parent .parent_1 {
+    color: violet;
+}
+
+/* Adjacent Siblings Selector */
+
+.parent_2 li+li{
+    color: #F9E400;
+}
+
+/* Id selector */
+#TS_2{
+    color: #FFB84C;
+}
+
+/* class selector */
+
+.BA2_1{
+    color:  green;
+}
+
+.BA2_2 {
+    color: blueviolet;
+}
